@@ -77,7 +77,7 @@ ax1.axhline(
 ax1.set_title("RC4 Key Stream Bias (1st Byte Analysis)", fontsize=12, fontweight="bold")
 ax1.set_xlabel("Byte Value (0-255)")
 ax1.set_ylabel("Frequency")
-ax1.legend()
+ax1.legend(loc='lower right')
 ax1.grid(axis="y", alpha=0.3)
 
 # 2バイト目の分布グラフ
